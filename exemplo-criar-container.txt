@@ -1,0 +1,5 @@
+#CONTAINER OFICIAL
+docker run --name ctn-cursos -d -p 8000:80 -v /media/media-server/Cursos:/usr/share/nginx/html/cursos --restart=always cursos-server:1.2
+
+#CONTAINER DE TESTE
+docker run --rm -d -p 8001:80 -v /media/media-server/Cursos:/usr/share/nginx/html/cursos cursos-server:1.2

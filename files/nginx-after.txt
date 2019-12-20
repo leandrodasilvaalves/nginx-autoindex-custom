@@ -1,0 +1,7 @@
+<script>         
+	var body = document.querySelector("body");
+        body.classList.add("container");
+        body.classList.add("mx-5");
+        body.classList.add("my-5");
+        body.classList.add("lead");
+</script>
