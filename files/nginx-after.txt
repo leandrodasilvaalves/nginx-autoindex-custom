@@ -4,4 +4,12 @@
         body.classList.add("mx-5");
         body.classList.add("my-5");
         body.classList.add("lead");
+	body.classList.add("bg-dark");
+	body.classList.add("text-white");
+
+	var links = body.getElementsByTagName("a");
+	for(let i =0; i < links.length; i ++){links[i].classList.add("text-warning");}
+
+	var pre = body.querySelector("pre");
+	pre.classList.add("text-info");
 </script>
